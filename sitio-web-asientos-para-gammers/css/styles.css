@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Avenir','sans-serif';
+}
+
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	background: #151414;
+}
+
+.vector{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50vw;
+	z-index: 0;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	position: relative;
+	z-index: 1;
+
+}
+
+
+.brand{
+	color: #cf7520;
+	margin-left: 2.7em;
+
+}
+
+.menu{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.menu li{
+	list-style: none;
+
+}
+
+.menu a{
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 1.2em;
+	cursor: pointer;
+	color: #fff;
+}
+
+.main{
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.container-main{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+
+}
+
+.info-content{
+	grid-column: 1/6;
+	margin-top: 4em;
+}
+
+.title,h1{
+	font-size: 4em;
+}
