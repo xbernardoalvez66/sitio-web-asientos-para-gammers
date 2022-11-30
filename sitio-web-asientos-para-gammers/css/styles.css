@@ -1,4 +1,5 @@
-*{
+
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -75,4 +76,156 @@ body{
 
 .title,h1{
 	font-size: 4em;
+}
+
+h5{
+	font-size: 1.5em;
+}
+
+h3, h1, h5, p, .btn-buy, i,{
+	color: #fff;
+}
+
+.btn-buy{
+	padding: 10px 30px;
+	margin-top: 1em;
+	background: none;
+	border: 1px solid #cf7520;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+
+.btn-buy:hover{
+	color:#cf7520 ;
+}
+
+.arrow  i{
+	font-size: 3em;
+	margin-top: 2em;
+	cursor: pointer;
+	animation-name:arrow-animation;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes arrow-animation{
+	from{
+		transform: translateY(0%);
+	}
+
+	to{
+		transform: translateY(100%);
+	}
+}
+
+.product{
+	grid-column: 7/10;
+	width: 600px;
+	z-index: 1;
+	margin-top: -15em;
+
+}
+
+.our-products{
+	width: 100vw;
+}
+
+.our-products h2{
+	font-size: 3em;
+	text-align: center;
+	padding-top: 2em;
+}
+
+.our-products .divider{
+	width: 50px;
+	height: 5px;
+	background-color:#cf7520 ;
+	margin: 0 auto;
+	margin-bottom: 7em;
+
+}
+
+.products-content{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.products_info{
+	height: 300px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.products_info h3{
+	font-size: 1.5rem;
+	margin-bottom: 1em;
+}
+
+.products_info p,
+.products_info h3{
+	color: #151414;
+}
+
+.product_img1,
+.product_img2,
+.product_img3,
+.product_img4{
+	height: 300px;
+	background-image: url(../img/Razer-Iskur-gaming-chair.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.product_img2{
+	background-image: url(../img/Gaming-Chair-Gear-Patrol-Lead-Full.jpeg);
+}
+
+.product_img3{
+	background-image: url(../img/6VVqgTcvHdJuou67bUGW4g-1200-80.jpeg);
+}
+
+
+.product_img4{
+	background-image: url(../img/6VVqgTcvHdJuou67bUGW4g-1200-80.jpeg);
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 200px;
+	padding: 2em;
+	background-color: #151414;
+
+}
+
+.footer h2{
+	font-size: 3em;
+	color: #fff;
+}
+
+.footer h5{
+	font-size: 1.5em;
+	color: #cf7520;
+	text-align: center;
+}
+
+.social-network{
+	display: flex;
+	justify-content: space-evenly;
+	width: 300px;
+	margin-top: 1em;
+}
+
+.social-network i{
+	font-size: 1.2em;
+	color: #cf7520;
 }
