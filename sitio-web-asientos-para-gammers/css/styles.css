@@ -73,7 +73,7 @@ body{
 	margin-top: 4em;
 }
 
-.title,h1 {
+.title, h1 {
 	font-size: 4em;
 }
 
@@ -81,7 +81,7 @@ h5{
 	font-size: 1.5em;
 }
 
-h3, h1, h5, p, .btn-buy, i{
+h3, h1, h5, p, .btn-buy, i {
 	color: #fff;
 }
 
@@ -176,22 +176,22 @@ background-color:#cf7520 ;
 .product_img3,
 .product_img4 {
 	height: 300px;
-	background-image: url(img/Razer-Iskur-gaming-chair.jpeg);
+	background-image: url(./img/Razer-Iskur-gaming-chair.jpeg);
 	background-size: cover;
 	background-position: center;
 }
 
-.product_img2{
-	background-image: url(img/Gaming-Chair-Gear-Patrol-Lead-Full.jpeg);
+.product_img2 {
+	background-image: url(./img/3803382-iskurthumb1.jpeg);
 }
 
-.product_img3{
-	background-image: url(img/6VVqgTcvHdJuou67bUGW4g-1200-80.jpeg);
+.product_img3 {
+	background-image: url(./img/Gaming-Chair-Gear-Patrol-Lead-Full.jpeg);
 }
 
 
-.product_img4{
-	background-image: url(img/6VVqgTcvHdJuou67bUGW4g-1200-80.jpeg);
+.product_img4 {
+	background-image: url(./img/6VVqgTcvHdJuou67bUGW4g-1200-80.jpeg);
 }
 
 .footer{
