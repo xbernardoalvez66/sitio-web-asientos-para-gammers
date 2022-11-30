@@ -38,18 +38,18 @@ body{
 
 }
 
-.menu {
+.navbar {
 	width: 50%;
 	display: flex;
 	justify-content: space-around;
 
 }
-.menu li {
+.navbar li {
 	list-style: none;
 
 }
 
-.menu a {
+.navbar a {
 	text-decoration: none;
 	padding: 10px 20px;
 	font-size: 1.2em;
